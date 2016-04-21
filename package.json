@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "lodash": "*",
-    "masonry-layout": "^3.3.2"
+    "masonry-layout": "^4.0.0"
   },
   "devDependencies": {
     "vue": "^1.0.3"
