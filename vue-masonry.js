@@ -20,7 +20,10 @@
                 }
 
                 if (!this.el.masonry) {
-                    this.el.masonry = new Masonry(this.el, options)
+                    var _this = this;
+                    Vue.nextTick(function (){
+                      _this.el.masonry = new Masonry(_this.el, options)
+                    })
                 }
             },
             unbind: function () {
